@@ -4,7 +4,7 @@ var decrementNUm = (function () {
     counter += val;
   }
    return {
-     increment: function (val = 0) {
+     increment: function (val=0) {
        changeNum(val + 1);
      },
      value: function () {
