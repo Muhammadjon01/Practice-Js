@@ -1,5 +1,5 @@
 function removeElem(arr){
-    let arr1=arr.splice(1,arr.length-2)
+   let arr1=[...arr.splice(1,3)]
 
     return arr1
 }
