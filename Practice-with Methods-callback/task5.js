@@ -1,9 +1,6 @@
-function f(str){
-    if(str.includes("Nemo")){
-        return "I found Nemo"
-    }
+let str="I am finding Nemo"
 
-    return "I can't find Nemo"
-}
+let str1=str.split(" ")
+let find=str1.indexOf("Nemo")
 
-console.log(f("I am finding Nemo"))
+console.log(`I found Nemo at index of ${find}`)
