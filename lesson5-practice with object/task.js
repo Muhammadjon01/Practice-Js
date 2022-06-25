@@ -9,7 +9,7 @@ let family={
 }
 
 function generation(x, f){
-    return f=="m"?family[x][0]:family[x][1]
+    return f=="m" || f=="M"?family[x][0]:family[x][1]
 }
 
-console.log(generation(3, "f"))
+console.log(generation(3, "m"))
